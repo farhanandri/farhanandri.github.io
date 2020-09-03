@@ -65,6 +65,7 @@ body {
 	height: 40px;
 	background-color: lightskyblue;
 	z-index: 999;
+	border-bottom: 5px solid salmon;
 }
 
 .container {
