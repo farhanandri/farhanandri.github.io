@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/*ClearFix*/
+
 .cf:before,
 .cf:after {
     content: " "; /* 1 */
@@ -82,6 +84,15 @@ body {
 	border-bottom: 5px solid #d4c79c;
 }
 
+.bar h1 {
+	font-family: Segoe Print;
+	font-size: 30px;
+	color: #fff;
+	margin: 5px 5px 5px 15px;
+	text-shadow: 2px 2px 0 #6cc5b9;
+	
+}
+
 .container {
 	width: 1000px;
 	margin: auto;
@@ -97,8 +108,11 @@ body {
 }
 
 .header .judul {
-	font-size: 40px;
-	font-weight: bold; 
+	font-size: 55px;
+	font-weight: bold;
+	font-family: Freestyle Script;
+	text-shadow: 3px 3px 0 #ceb45e;
+	margin-top: 5px;
 }
 
 .header ul li {
@@ -140,6 +154,7 @@ body {
 .main h2 {
 	font-size: 28px;
 	font-weight: bold;
+	text-shadow: 0 1px 1px #917835;
 }
 
 .main .penulis {
