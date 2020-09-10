@@ -1,0 +1,222 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*ClearFix*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/*Sintaks Asli*/
+
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	color: #333;
+	background-image: url(img/sativa.png);
+	height: 1000px;
+}
+
+.bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 40px;
+    background-color: #161d3d;
+    border-bottom: 5px solid #d4c79c;
+    z-index: 999;
+}
+
+.bar h1 {
+    font-family: Segoe Print;
+	font-size: 30px;
+	color: #fff;
+	margin: 5px 5px 5px 15px;
+	text-shadow: 2px 2px 0 #6cc5b9;
+}
+
+.container {
+    width: 1000px;  
+    margin: auto;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 40px;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 55px;
+	font-weight: bold;
+	font-family: Freestyle Script;
+	text-shadow: 3px 3px 0 #ceb45e;
+	margin-top: 5px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #917835;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.containerhero {
+    width: auto;
+    height: 360px;
+    position: relative;
+    z-index: 0;
+}
+
+.hero {
+    height: 350px;
+    background-image: url(img/galery.jpg);
+    background-position: 0 -630px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 5px solid #b3c7df;
+    border-bottom: 5px solid #ceb45e;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.8;
+}
+
+.welcome {
+    width: 1000px;
+    height: 360px;
+    margin-top: -360px;
+    position: relative;
+}
+
+.welcome h2 {
+    /*Sintaks untuk membuat tesk berada di tengah*/
+    display: block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 90px;
+    font-family: Freestyle Script;
+    text-shadow: 5px 5px 0 #9b2020;
+    font-weight: 700;
+}
+
+.main {
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.kiri{
+    width: 500px;
+    float: left;
+    padding-top: 5px;
+    padding-right: 7px;
+    padding-left: 13px;
+    box-sizing: border-box;
+}
+
+.kiri ul li img{
+    width: 480px;
+    height: 640px;
+    box-shadow: 0 0 7px #000;
+    
+}
+
+.kanan{
+    width: 500px;
+    float: right;
+    padding-top: 5px;
+    padding-right: 13;
+    padding-left: 7px;
+    box-sizing: border-box;
+}
+
+.kanan ul li img{
+    width: 480px;
+    height: 640px;
+    box-shadow: 0 0 7px #000;
+}
+
+.footer {
+	background-color: #333;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+}
+
+
